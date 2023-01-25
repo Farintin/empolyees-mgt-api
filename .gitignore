@@ -1,0 +1,4 @@
+.env
+user_detail.txt
+node_modules/
+*.example.js

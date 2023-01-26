@@ -1,8 +1,8 @@
 {
-  "name": "employees",
+  "name": "employees-mgt-api",
   "version": "1.0.0",
-  "description": "employees crud application",
-  "main": "server.js",
+  "description": "Employees management CRUD api application.",
+  "main": "src/server.js",
   "scripts": {
     "start": "node server",
     "dev": "nodemon server"
@@ -19,9 +19,11 @@
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^5.10.3",
     "morgan": "^1.10.0",
+    "netlify-lambda": "^2.0.15",
     "passport": "^0.6.0",
     "passport-jwt": "^4.0.0",
-    "passport-local": "^1.0.0"
+    "passport-local": "^1.0.0",
+    "serverless-http": "^3.1.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
